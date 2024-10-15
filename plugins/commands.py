@@ -45,8 +45,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('• Sᴇᴀʀᴄʜ •', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ •', url=UPDATE_CHANNEL)
+           InlineKeyboardButton('• Group •', url=https:https://t.me/movie_group_wb'),
+            InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ Channel •', url=https://t.me/Movie_white_bright_hub)
             ],[
             InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='help'),
             InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
@@ -68,7 +68,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "Updates Channel", url=https://t.me/Movie_white_bright_hub
                 )
             ]
         ]
@@ -91,8 +91,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('• Sᴇᴀʀᴄʜ •', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ •', url=UPDATE_CHANNEL)
+            InlineKeyboardButton('• Group •', url=https://t.me/movie_group_wb),
+            InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ Channel •', url=https://t.me/Movie_white_bright_hub)
             ],[
             InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='help'),
             InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
@@ -245,7 +245,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ •', url=UPDATE_CHANNEL) ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ •', url=https://t.me/Movie_white_bright_hub) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
